@@ -4,32 +4,105 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Flex</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 </head>
 <body>
     <header style="z-index: +1">
         <img class="logo" src="logo.png" alt="SSPŠ logo">
+        <div class="center center-vertically center-horizontally">
+            <div class="center2">
+                <div class="domu" id="vybrane">
+                    Domovská stránka
+                </div>
+                <div class="o-nas">
+                    O nás
+                </div>
+                <div class="kontakt">
+                    Kontakt
+                </div>
+            </div>
+        </div>
+        <img class="search" src="/individual-work/flex-1/search.png" alt="lupa">
     </header>
+        
+    </div>
     <div class="bg"></div>
     
 </body>
 <style>
+    .box{
+        width:500px;
+        height:350px;
+        position:relative;
+        background-color:rgba(8,8,8,0);
+        top:-50px;
+        margin:0;
+    }
+    #vybrane{
+        font-weight:900;
+    }
+    .search{
+        width:1%;
+        margin: 0;
+  position: absolute;
+  top: 49%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right:50px;
+    }
+    .center2{
+        position:absolute;
+        top: 50%;
+     -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color:white;
+    font-size:12px;
+    }
+    .center-vertically{
+        display:flex;
+        align-items: center;
+    }
+    .center-horizontally{
+        display:flex;
+        justify-content: center;
+    }
+    .center{
+        height: -500;
+    }
+    .domu{
+        padding-right:40px;
+        float:left;
+    }
+    .o-nas{
+        padding-right:40px;
+        float:left;
+    }
+    .kontakt{
+        float:right;
+    }
+    .logo {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
     header{
         height: 125px;
-        background-color:red;
+        background-image:linear-gradient(rgba(8,8,8,0.3),rgba(23,23,23,0));
         position:absolute;
         width:100%;
     }
     body, html {
-    display:block;
     height:100%;
     margin:0;
+    font-family: 'Montserrat';
     }
 
     .logo{
         width:224.5px;
         height:110.5px;
-        position:absolute;
-        top:6.5px;
         left:50px;
     }
 
