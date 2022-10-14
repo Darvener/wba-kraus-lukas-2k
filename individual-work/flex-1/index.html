@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Flex</title>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet'>
 </head>
 <body>
     <header style="z-index: +1">
@@ -24,29 +26,32 @@
         </div>
         <img class="search" src="/individual-work/flex-1/search.png" alt="lupa">
     </header>
+    <div class="center center-vertically center-horizontally">
         <div class="content">
-            <div class="center center-vertically center-horizontally">
             <div class="box">
                 <h5>Lorem ipsum</h5>
                 <h6>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Mauris dictum facilisis augue. Etiam posuere lacus quis dolor. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. Morbi leo mi, nonummy eget tristique non, rhoncus non leo. Ut tempus purus at lorem.</h6>
             </div>
-    </div>
         </div>
+    </div>
     <div class="bg"></div>
-    
 </body>
 <style>
     h6{
+        font-family:Cabin;
+        font-weight:100;
         font-size:15px;
         max-width:500px;
     }
     h5{
+        font-family:Cabin;
         font-size:20px;
+        font-weight:800;
     }
     .content{
         position:absolute;
         z-index:+2;
-        top:50%;
+        top:55.5%;
         -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     }
@@ -62,6 +67,7 @@
         padding-right:39px;
         padding-bottom:8px;
         text-align:left;
+        box-shadow: 0px 0px 40px 21px white;
     }
     #vybrane{
         font-weight:900;
@@ -112,7 +118,6 @@
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-
     header{
         height: 125px;
         background-image:linear-gradient(rgba(8,8,8,0.3),rgba(23,23,23,0));
@@ -124,20 +129,15 @@
     margin:0;
     font-family: 'Montserrat';
     }
-
     .logo{
         width:224.5px;
         height:110.5px;
         left:50px;
     }
-
     .bg {
     background-image: url("/individual-work/flex-1/Cosmic-Gradient-14.jpg");
-
     height: 100%;
     position:relative;
-    
-
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
