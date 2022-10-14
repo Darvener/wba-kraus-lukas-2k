@@ -6,24 +6,31 @@
     <title>CSS Flex</title>
 </head>
 <body>
-    <header>
-<a>test</a>
+    <header style="z-index: +1">
+        <img class="logo" src="logo.png" alt="SSPŠ logo">
     </header>
-    <body2>
-        <div class="bg"></div>
-    </body2>
+    <div class="bg"></div>
     
 </body>
 <style>
     header{
-        height:100px;
+        height: 125px;
         background-color:red;
-        
+        position:absolute;
+        width:100%;
     }
     body, html {
     display:block;
     height:100%;
     margin:0;
+    }
+
+    .logo{
+        width:224.5px;
+        height:110.5px;
+        position:absolute;
+        top:6.5px;
+        left:50px;
     }
 
     .bg {
