@@ -39,22 +39,18 @@ h6 {
   }
 
   .search {
-    width: 1%;
-    margin: 0;
-    position: absolute;
-    top: 49%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    right: 75px;
+    width: 12.5px;
+    height:12.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
   }
 
-  .center2 {
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+  .menu{
     color: white;
     font-size: 12px;
+    width:100%;
   }
 
   .center-vertically {
@@ -65,10 +61,7 @@ h6 {
   .center-horizontally {
     display: flex;
     justify-content: center;
-  }
-
-  .center {
-    height: -500;
+    
   }
 
   .domu {
@@ -105,12 +98,12 @@ h6 {
     height: 100%;
     margin: 0;
     font-family: 'Montserrat';
+
   }
 
   .logo {
     width: 224.5px;
     height: 110.5px;
-    left: 50px;
   }
 
   .bg {
@@ -121,3 +114,23 @@ h6 {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .flex{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+    height:125px;
+}
+
+.flex-1{
+  display:flex;
+}
+
+.logo-class{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:110.5px;
+    width:100%;
+}
