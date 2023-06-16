@@ -1,0 +1,46 @@
+body{
+    margin:0;
+    a{
+        font-family:Roboto;
+    }
+}
+
+header {
+    background-color: #CBC1B1;
+    height: 46.78px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100vw;
+    margin-top:18.91px;
+  }
+
+  nav{
+    width: 100vw;
+    justify-content: space-between;
+    display: flex;
+    align-items:center;
+    .menu{
+        a{
+            font-size:15px;
+            color: #4E4E91;
+            text-decoration: none;
+            margin-right: 19px;
+        }
+    }
+    .logo img{
+        width:133px;
+        height:46.78px;
+        margin-left:100px;
+    }
+    .button{
+        padding-top:10.12px;
+        padding-left:27px;
+        padding-right:28px;
+        padding-bottom:9.7px;
+        background-color: #FF4800;
+        a{
+            color:#FFFFFF;
+        }
+    }
+}
